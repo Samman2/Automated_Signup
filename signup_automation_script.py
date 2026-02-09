@@ -36,7 +36,7 @@ def test_full_signup_flow(page: Page):
     
     #Note 
     # Otp verification cannot be automated as the otp was sent to the user's phone no and its a manual process
-    # ( Correction : not in user's email as the website says Email verification code ) 
+    # (Correction : otp was not sent in user's email as the website says Email verification code ) 
     
     print("\n>>> PAUSE: Check your phone for the OTP.")
     otp_code = input("Enter the 6-digit OTP from your phone: ")
