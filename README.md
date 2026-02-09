@@ -7,6 +7,10 @@ Download python
     py --version 
     To check python is installed successfully 
 
+    Setup Enivroment varaiables
+
+    Then Add python path to system varaiable
+
 Second step open the folder in your editor
 In terminal 
     Create and setup enviroment

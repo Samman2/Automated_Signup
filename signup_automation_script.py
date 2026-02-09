@@ -5,7 +5,7 @@ import requests
 from playwright.sync_api import Page, expect
 
 MAIL_DOMAIN = "gmail.com"
-EMAIL = f"{test}@{MAIL_DOMAIN}"
+EMAIL = f"test@{MAIL_DOMAIN}"
 
 def test_full_signup_flow(page: Page):
 #Navigation 
